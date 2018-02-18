@@ -1,0 +1,33 @@
+
+.card-container {
+    display: flex;
+    flex-flow: row;
+    .mat-card {
+      margin: 0 16px 16px 0;
+      width: 800px;
+      height: 600px;
+    }
+}
+
+.mat-card {
+  margin: 0 16px 16px 0;
+  width: 500px;
+}
+
+.demo-card-blue {
+  background-color: #b0becc;
+  .mat-card-actions {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.app-icon {
+    padding: 0 14px;
+}
+  
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+

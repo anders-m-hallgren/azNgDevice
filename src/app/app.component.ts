@@ -1,16 +1,13 @@
 import {Component} from '@angular/core';
 
+const version: string = '1.0';
+
 @Component({
   selector: 'app-root',
-  template: `
-  <h1>Universal Demo using Angular and Angular CLI</h1>
-  <a routerLink="/">Home</a>
-  <a routerLink="/lazy">Lazy</a>
-  <a routerLink="/lazy/nested">Lazy_Nested</a>
-  <router-outlet></router-outlet>
-  `,
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss'],
   styles: []
 })
 export class AppComponent {
-
+  version_display: string = version;
 }

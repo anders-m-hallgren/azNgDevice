@@ -29,7 +29,6 @@ export class ChartComponent implements OnInit {
   // line, area
   autoScale = true;
   constructor(private _svc: ChartService) {
-    //Object.assign(this, {single, multi})
   }
 
   ngOnInit() {
@@ -37,8 +36,7 @@ export class ChartComponent implements OnInit {
   }
 
   getData() {
-    this._svc.getData().subscribe(data => 
-      {
+    this._svc.getData().subscribe(data => {
         this.DataSeries = data;
         console.log(this.DataSeries);
       });

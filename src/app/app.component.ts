@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 
-const version: string = '1.0';
+const version = '1.0';
 
 @Component({
   selector: 'app-root',

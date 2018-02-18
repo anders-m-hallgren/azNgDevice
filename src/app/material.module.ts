@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import {MatButtonModule, MatCheckboxModule} from '@angular/material';
-import {MatToolbarModule,MatIconModule,MatInputModule,MatProgressSpinnerModule,MatCardModule} from '@angular/material';
+import {MatToolbarModule, MatIconModule, MatInputModule, MatProgressSpinnerModule, MatCardModule} from '@angular/material';
 
 @NgModule({
     imports: [
